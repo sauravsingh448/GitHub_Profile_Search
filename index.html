@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Search</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GitHub Profile Search</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Enter GitHub username...">
+                <button id="searchButton">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <div class="profile-container" id="profileContainer">
+                <!-- Profile information will be displayed here -->
+            </div>
+        </main>
+
+        <div class="error-message" id="errorMessage">
+            <!-- Error messages will be displayed here -->
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
